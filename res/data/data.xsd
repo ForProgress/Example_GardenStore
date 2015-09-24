@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="TestData" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="TestData">
+    <xsd:element name="xCustomers">
+    	<xsd:complexType>
+    		<xsd:sequence>
+    			<xsd:element name="customer" type="xCustomer" maxOccurs="unbounded" minOccurs="0"></xsd:element>
+    		</xsd:sequence>
+    	</xsd:complexType></xsd:element>
+
+    <xsd:complexType name="xAddress">
+    	<xsd:attribute name="street" type="xsd:string" use="required"></xsd:attribute>
+    	<xsd:attribute name="house" type="xsd:int" use="required"></xsd:attribute>
+    	<xsd:attribute name="apartment" type="xsd:int" use="required"></xsd:attribute>
+    	<xsd:attribute name="city" type="xsd:string" use="required"></xsd:attribute>
+    </xsd:complexType>
+
+    <xsd:simpleType name="xSex">
+    	<xsd:restriction base="xsd:string">
+    		<xsd:enumeration value="M"></xsd:enumeration>
+    		<xsd:enumeration value="F"></xsd:enumeration>
+    	</xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:complexType name="xCustomer">
+    	<xsd:sequence>
+    		<xsd:element name="address" type="xAddress" minOccurs="1" maxOccurs="unbounded"></xsd:element>
+    	</xsd:sequence>
+    	<xsd:attribute name="firstname" type="xsd:string" use="required"></xsd:attribute>
+    	<xsd:attribute name="surename" type="xsd:string" use="required"></xsd:attribute>
+    	<xsd:attribute name="sex" type="xSex" use="required"></xsd:attribute>
+    	<xsd:attribute name="born" type="xsd:string" use="required"></xsd:attribute>
+    </xsd:complexType>
+</xsd:schema>
