@@ -8,11 +8,12 @@ import fp.forevo.proxy.*;
  * Class generated automaticaly. Do not edit from text editor. Change it using Test Object Manager.
  * @author Test Object Manager by ForProgress
  * @see www.forprogress.com.pl
- * @since 2015-09-03 15:27:48
+ * @since 2015-10-08 14:41:53
  */
 public class HomePageMap extends MasterScript {
 
-	private TestObjectManager tomgr = new TestObjectManager(getProjectPath(this.getClass()), "res/gardenstore.modules/HomePage/HomePage.map");
+	private TestObjectManager tomgr = new TestObjectManager(getProjectPath(this.getClass()), 
+			"res/gardenstore.modules/HomePage/HomePage.map");
 
 	/**
 	 * <b>Description:</b> Home page

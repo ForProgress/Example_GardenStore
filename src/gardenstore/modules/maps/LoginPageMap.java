@@ -1,6 +1,6 @@
 package gardenstore.modules.maps;
 
-import fp.forevo.manager.MasterScript;
+import gardenstore.modules.BasePage;
 import fp.forevo.manager.TestObjectManager;
 import fp.forevo.proxy.*;
 
@@ -8,9 +8,9 @@ import fp.forevo.proxy.*;
  * Class generated automaticaly. Do not edit from text editor. Change it using Test Object Manager.
  * @author Test Object Manager by ForProgress
  * @see www.forprogress.com.pl
- * @since 2015-09-03 15:27:48
+ * @since 2015-10-08 14:41:53
  */
-public class LoginPageMap extends MasterScript {
+public class LoginPageMap extends BasePage {
 
 	private TestObjectManager tomgr = new TestObjectManager(getProjectPath(this.getClass()), "res/gardenstore.modules/LoginPage/LoginPage.map");
 

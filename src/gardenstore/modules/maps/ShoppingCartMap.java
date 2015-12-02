@@ -8,7 +8,7 @@ import fp.forevo.proxy.*;
  * Class generated automaticaly. Do not edit from text editor. Change it using Test Object Manager.
  * @author Test Object Manager by ForProgress
  * @see www.forprogress.com.pl
- * @since 2015-09-03 15:27:48
+ * @since 2015-10-08 14:41:53
  */
 public class ShoppingCartMap extends MasterScript {
 

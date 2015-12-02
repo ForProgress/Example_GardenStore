@@ -8,7 +8,7 @@ import fp.forevo.proxy.*;
  * Class generated automaticaly. Do not edit from text editor. Change it using Test Object Manager.
  * @author Test Object Manager by ForProgress
  * @see www.forprogress.com.pl
- * @since 2015-09-03 16:18:10
+ * @since 2015-10-08 14:41:53
  */
 public class LoginPageIMGMap extends MasterScript {
 
@@ -27,8 +27,8 @@ public class LoginPageIMGMap extends MasterScript {
 	 * <b>File:</b> login_passwd.png<br/>
 	 * <b>Offset: </b> -163:-36<br/>
 	 * <b>Tags: </b> firefox_img<br/>
-	 * <div style="background: url('C:\Workspace\FP_GardenStore\res\gardenstore.modules\LoginPageIMG\login_passwd.png') no-repeat;width:378px;height:264px;">
-	 * <img style="margin-left:21px;margin-top:91px" src="C:\Program Files\ForProgress\Test Automation Framework\lib\point.png"></div>
+	 * <div style="background: url('C:\Workspace\Example_GardenStore\res\gardenstore.modules\LoginPageIMG\login_passwd.png') no-repeat;width:378px;height:264px;">
+	 * <img style="margin-left:21px;margin-top:91px" src="C:\Program Files\ForProgress\ForEVO\point.png"></div>
 	 * <br/>
 	 * <b>File:</b> login_passwd.png<br/>
 	 * <b>Offset: </b> 1:28<br/>
@@ -45,8 +45,8 @@ public class LoginPageIMGMap extends MasterScript {
 	 * <b>File:</b> login_passwd.png<br/>
 	 * <b>Offset: </b> -164:19<br/>
 	 * <b>Tags: </b> firefox_img<br/>
-	 * <div style="background: url('C:\Workspace\FP_GardenStore\res\gardenstore.modules\LoginPageIMG\login_passwd.png') no-repeat;width:378px;height:264px;">
-	 * <img style="margin-left:20px;margin-top:146px" src="C:\Program Files\ForProgress\Test Automation Framework\lib\point.png"></div>
+	 * <div style="background: url('C:\Workspace\Example_GardenStore\res\gardenstore.modules\LoginPageIMG\login_passwd.png') no-repeat;width:378px;height:264px;">
+	 * <img style="margin-left:20px;margin-top:146px" src="C:\Program Files\ForProgress\ForEVO\point.png"></div>
 	 * <br/>
 	 * <b>File:</b> login_passwd.png<br/>
 	 * <b>Offset: </b> -1:84<br/>
@@ -63,8 +63,8 @@ public class LoginPageIMGMap extends MasterScript {
 	 * <b>File:</b> login_passwd.png<br/>
 	 * <b>Offset: </b> -106:103<br/>
 	 * <b>Tags: </b> <br/>
-	 * <div style="background: url('C:\Workspace\FP_GardenStore\res\gardenstore.modules\LoginPageIMG\login_passwd.png') no-repeat;width:378px;height:264px;">
-	 * <img style="margin-left:78px;margin-top:230px" src="C:\Program Files\ForProgress\Test Automation Framework\lib\point.png"></div>
+	 * <div style="background: url('C:\Workspace\Example_GardenStore\res\gardenstore.modules\LoginPageIMG\login_passwd.png') no-repeat;width:378px;height:264px;">
+	 * <img style="margin-left:78px;margin-top:230px" src="C:\Program Files\ForProgress\ForEVO\point.png"></div>
 	 * <br/>
 	 */
 	protected Button btnSubmitLogin = getButton(tomgr, winLoginPage, "btnSubmitLogin");
