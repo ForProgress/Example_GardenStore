@@ -34,8 +34,6 @@ public class LoginPage extends LoginPageMap {
 	 * @throws TafException
 	 */
 	public boolean jLogin(String user, String password) throws TafException {
-
-		btnBasePageOK.click();
 		
 		txtEmail.setText(user);
 		txtPass.setText(password);

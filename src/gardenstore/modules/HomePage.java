@@ -37,6 +37,8 @@ public class HomePage extends HomePageMap {
 	}
 
 	public boolean jOpenContactPage() {
+		
+		
 		log.info("Open contact page");
 		return true;
 	}
@@ -54,7 +56,7 @@ public class HomePage extends HomePageMap {
 	 */
 	public boolean jOpenGardenStore() throws TafException {
 		log.info("Run browser");
-		runBrowser(Browser.Chrome, "http://localhost:8181/gardenstore/");
+		runBrowser(Browser.Firefox, "http://localhost:8181/gardenstore/");
 		MasterScript.browser.manage().window().maximize();
 
 		

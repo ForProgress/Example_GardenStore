@@ -22,8 +22,8 @@ public class SampleTest extends MasterScript{
 		
 		try {
 			homePage.jOpenGardenStore();
-			loginPage.jLogin("tester@forprogress.com.pl", "12345678");
-			homePage.jChangeLanguage("EN");
+			//loginPage.jLogin("tester@forprogress.com.pl", "12345678");
+			homePage.jChangeLanguage("English");
 			homePage.jOpenContactPage();
 			
 			homePage.jLogout();
