@@ -10,6 +10,18 @@ import gardenstore.modules.maps.HomePageMap;
 public class HomePage extends HomePageMap {
 
 	public static final String ROBOT_LIBRARY_SCOPE = "GLOBAL";
+	
+	public boolean jOpenParennialsPage() {
+		try {
+			btnPerennials.click();
+		} catch (TafException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		log.info("Open Parennials page");
+		return true;
+	}
 
 	/**
 	 * Opening the login page if user logged out. User logout if logged in.
@@ -37,7 +49,12 @@ public class HomePage extends HomePageMap {
 	}
 
 	public boolean jOpenContactPage() {
-		
+		try {
+			btnNew.click();
+		} catch (TafException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		log.info("Open contact page");
 		return true;
@@ -56,9 +73,9 @@ public class HomePage extends HomePageMap {
 	 */
 	public boolean jOpenGardenStore() throws TafException {
 		log.info("Run browser");
-		runBrowser(Browser.Firefox, "http://localhost:8181/gardenstore/");
+		//runBrowser(Browser.Firefox, "http://localhost:8181/gardenstore");
+		runBrowser(Browser.Firefox, "http://testy.forprogress.com.pl:8000/gardenstore/pl/");
 		MasterScript.browser.manage().window().maximize();
-
 		
 		if (imgLogo.waitIfNotExist(20)) {
 			log.info("openGardenStore", "Main page is correct", winHomePage.screenShot());
