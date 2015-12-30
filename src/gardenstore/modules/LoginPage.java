@@ -7,7 +7,7 @@ import org.sikuli.script.Pattern;
 import org.sikuli.script.Screen;
 
 import fp.forevo.manager.TafException;
-import fp.forevo.manager.TestSettings;
+
 import gardenstore.modules.maps.LoginPageMap;
 
 
@@ -37,7 +37,7 @@ public class LoginPage extends LoginPageMap {
 		
 		txtEmail.setText(user);
 		txtPass.setText(password);
-		log.info("Logowanie","Type user name and password for user: " + user, winLoginPage.screenShot());
+		log.info("Type user name and password for user: " + user, winLoginPage.screenShot());
 		btnSubmitLogin.click();
 		
 		btnOrderHistory.waitIfNotExist(20);
@@ -47,7 +47,7 @@ public class LoginPage extends LoginPageMap {
 
 		txtEmail.setText(user);
 		txtPass.setText(password);
-		log.info("Sign in","Type user name and password for user: " + user, winLoginPage.screenShot());
+		log.info("Type user name and password for user: " + user, winLoginPage.screenShot());
 		btnSubmitLogin.click();		
 		
 		labelError.assertText("There is 1 error");

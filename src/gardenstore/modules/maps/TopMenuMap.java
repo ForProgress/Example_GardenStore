@@ -8,7 +8,7 @@ import fp.forevo.proxy.*;
  * Class generated automaticaly. Do not edit from text editor. Change it using Test Object Manager.
  * @author Test Object Manager by ForProgress
  * @see www.forprogress.com.pl
- * @since 2015-12-11 13:09:01
+ * @since 2015-12-30 12:26:07
  */
 public class TopMenuMap extends MasterScript {
 
@@ -23,7 +23,7 @@ public class TopMenuMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> linkText:Byliny<br/>
+	 * <b>Target:</b> linkText=Byliny<br/>
 	 */
 	protected Button btnByliny = getButton(tomgr, winTopMenu, "btnByliny");
 
@@ -31,7 +31,7 @@ public class TopMenuMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> linkText:Krzewy<br/>
+	 * <b>Target:</b> linkText=Krzewy<br/>
 	 */
 	protected Button btnKrzewy = getButton(tomgr, winTopMenu, "btnKrzewy");
 
@@ -39,7 +39,7 @@ public class TopMenuMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> linkText:Paprocie<br/>
+	 * <b>Target:</b> linkText=Paprocie<br/>
 	 */
 	protected Button btnPaprocie = getButton(tomgr, winTopMenu, "btnPaprocie");
 
@@ -47,7 +47,7 @@ public class TopMenuMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> linkText:Pn¹cza<br/>
+	 * <b>Target:</b> linkText=Pn¹cza<br/>
 	 */
 	protected Button btnPn¹cza = getButton(tomgr, winTopMenu, "btnPn¹cza");
 
@@ -55,7 +55,7 @@ public class TopMenuMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> linkText:Krzewinki<br/>
+	 * <b>Target:</b> linkText=Krzewinki<br/>
 	 */
 	protected Button btnKrzewinki = getButton(tomgr, winTopMenu, "btnKrzewinki");
 
@@ -63,7 +63,7 @@ public class TopMenuMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> linkText:Zio³a<br/>
+	 * <b>Target:</b> linkText=Zio³a<br/>
 	 */
 	protected Button btnZio³a = getButton(tomgr, winTopMenu, "btnZio³a");
 
@@ -71,7 +71,7 @@ public class TopMenuMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> linkText:Kwiaty<br/>
+	 * <b>Target:</b> linkText=Kwiaty<br/>
 	 */
 	protected Button btnKwiaty = getButton(tomgr, winTopMenu, "btnKwiaty");
 
@@ -79,7 +79,7 @@ public class TopMenuMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> linkText:Trawy ozdobne<br/>
+	 * <b>Target:</b> linkText=Trawy ozdobne<br/>
 	 */
 	protected Button btnTrawy_ozdobne = getButton(tomgr, winTopMenu, "btnTrawy_ozdobne");
 

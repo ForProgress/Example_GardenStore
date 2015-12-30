@@ -17,14 +17,15 @@ public class SampleTest extends SampleTestMap {
 		new SampleTest().run();
 	}
 	
-	private void run() {	
+	private void run() {
+		log.startTest("Example_GardenStore");
 		log.info("");
-		log.warning("", "");
+		log.warning("");
 		HomePage homePage = new HomePage();
 		TopMenu topMenu = new TopMenu();
 		
-		/*LoginPage loginPage = new LoginPage();
-		PerennialsPage page = new PerennialsPage();*/
+		LoginPage loginPage = new LoginPage();
+		/*PerennialsPage page = new PerennialsPage();*/
 		
 		try {
 			homePage.jOpenGardenStore();
@@ -39,9 +40,9 @@ public class SampleTest extends SampleTestMap {
 			
 			topMenu.jCheckCartStatus();
 			
-			//PerennialsPage page = topMenu.doOpenByliny();
-			//page.Text();
-			//homePage.jChangeLanguage("English");
+			/*PerennialsPage page = topMenu.doOpenByliny();
+			page.Text();*/
+			homePage.jChangeLanguage("English");
 			
 			//homePage.jOpenParennialsPage();
 			//page.jAddToCart();
@@ -52,7 +53,8 @@ public class SampleTest extends SampleTestMap {
 			homePage.jLogout();*/
 			
 			//MasterScript.browser.quit();
-			closeBrowser();
+			//closeBrowser();
+			
 		} catch (TafException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

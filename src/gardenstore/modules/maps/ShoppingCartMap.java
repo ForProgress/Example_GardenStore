@@ -8,7 +8,7 @@ import fp.forevo.proxy.*;
  * Class generated automaticaly. Do not edit from text editor. Change it using Test Object Manager.
  * @author Test Object Manager by ForProgress
  * @see www.forprogress.com.pl
- * @since 2015-12-11 13:09:01
+ * @since 2015-12-30 12:26:06
  */
 public class ShoppingCartMap extends MasterScript {
 
@@ -23,7 +23,7 @@ public class ShoppingCartMap extends MasterScript {
 	 * <b>Description:</b> PrzejdŸ do realizacji zamówienia<br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> name:button btn btn-default standard-checkout button-medium<br/>
+	 * <b>Target:</b> name=button btn btn-default standard-checkout button-medium<br/>
 	 */
 	protected Button btnPrzejdzDoRealizacjiZam = getButton(tomgr, winShoppingCart, "btnPrzejdzDoRealizacjiZam");
 
@@ -31,7 +31,7 @@ public class ShoppingCartMap extends MasterScript {
 	 * <b>Description:</b> Przycisk 'PrzejdŸ do realizacji zamówienia' na ekranie zatwierdzania adresu<br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> name:processAddress<br/>
+	 * <b>Target:</b> name=processAddress<br/>
 	 */
 	protected Button btnZatwierdzAdres = getButton(tomgr, winShoppingCart, "btnZatwierdzAdres");
 
@@ -39,7 +39,7 @@ public class ShoppingCartMap extends MasterScript {
 	 * <b>Description:</b> Przycisk 'PrzejdŸ do realizacji zamówienia' na ekranie zatwierdzania wysylki<br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> name:processCarrier<br/>
+	 * <b>Target:</b> name=processCarrier<br/>
 	 */
 	protected Button btnZatwierdzWysylke = getButton(tomgr, winShoppingCart, "btnZatwierdzWysylke");
 
@@ -47,7 +47,7 @@ public class ShoppingCartMap extends MasterScript {
 	 * <b>Description:</b> Przycisk z napisem:Zap³aæ przelewem (czas przetwarzania zamówienia bêdzie d³u¿szy)<br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> linkText:Zap³aæ przelewem (czas przetwarzania zamówienia bêdzie d³u¿szy)<br/>
+	 * <b>Target:</b> linkText=Zap³aæ przelewem (czas przetwarzania zamówienia bêdzie d³u¿szy)<br/>
 	 */
 	protected Button btnZaplacPrzelewem = getButton(tomgr, winShoppingCart, "btnZaplacPrzelewem");
 
@@ -55,7 +55,7 @@ public class ShoppingCartMap extends MasterScript {
 	 * <b>Description:</b> Checkbox akceptacji regulaminu<br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> id:cgv<br/>
+	 * <b>Target:</b> id=cgv<br/>
 	 */
 	protected Button btnZawierdzRegulamin = getButton(tomgr, winShoppingCart, "btnZawierdzRegulamin");
 

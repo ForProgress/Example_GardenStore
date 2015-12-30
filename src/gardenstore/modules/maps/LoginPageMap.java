@@ -8,7 +8,7 @@ import fp.forevo.proxy.*;
  * Class generated automaticaly. Do not edit from text editor. Change it using Test Object Manager.
  * @author Test Object Manager by ForProgress
  * @see www.forprogress.com.pl
- * @since 2015-12-11 13:09:01
+ * @since 2015-12-30 13:34:06
  */
 public class LoginPageMap extends MasterScript {
 
@@ -23,7 +23,7 @@ public class LoginPageMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> TextBox<br/>
-	 * <b>Target:</b> id:email<br/>
+	 * <b>Target:</b> id=email<br/>
 	 */
 	protected TextBox txtEmail = getTextBox(tomgr, winLoginPage, "txtEmail");
 
@@ -31,7 +31,7 @@ public class LoginPageMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> TextBox<br/>
-	 * <b>Target:</b> id:passwd<br/>
+	 * <b>Target:</b> id=passwd<br/>
 	 */
 	protected TextBox txtPass = getTextBox(tomgr, winLoginPage, "txtPass");
 
@@ -39,7 +39,7 @@ public class LoginPageMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> id:SubmitLogin<br/>
+	 * <b>Target:</b> id=SubmitLogin<br/>
 	 */
 	protected Button btnSubmitLogin = getButton(tomgr, winLoginPage, "btnSubmitLogin");
 
@@ -47,7 +47,7 @@ public class LoginPageMap extends MasterScript {
 	 * <b>Description:</b> Welcome to your account. Here you can manage all of your personal information and orders.<br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> cssSelector:p.info-account<br/>
+	 * <b>Target:</b> cssSelector=p.info-account<br/>
 	 */
 	protected Button labelMyAccount = getButton(tomgr, winLoginPage, "labelMyAccount");
 
@@ -55,7 +55,7 @@ public class LoginPageMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> cssSelector:a[title="Orders"] > span<br/>
+	 * <b>Target:</b> cssSelector=a[title="Orders"] > span<br/>
 	 */
 	protected Button btnOrderHistory = getButton(tomgr, winLoginPage, "btnOrderHistory");
 
@@ -63,7 +63,7 @@ public class LoginPageMap extends MasterScript {
 	 * <b>Description:</b> There is 1 error<br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> cssSelector:div.alert.alert-danger > p<br/>
+	 * <b>Target:</b> cssSelector=div.alert.alert-danger > p<br/>
 	 */
 	protected Button labelError = getButton(tomgr, winLoginPage, "labelError");
 
@@ -71,7 +71,7 @@ public class LoginPageMap extends MasterScript {
 	 * <b>Description:</b> Invalid email address.<br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> cssSelector:ol > li<br/>
+	 * <b>Target:</b> cssSelector=ol > li<br/>
 	 */
 	protected Button labelErrorMSG = getButton(tomgr, winLoginPage, "labelErrorMSG");
 

@@ -8,7 +8,7 @@ import fp.forevo.proxy.*;
  * Class generated automaticaly. Do not edit from text editor. Change it using Test Object Manager.
  * @author Test Object Manager by ForProgress
  * @see www.forprogress.com.pl
- * @since 2015-12-11 13:09:01
+ * @since 2015-12-30 12:27:28
  */
 public class PerennialsPageMap extends MasterScript {
 
@@ -23,7 +23,7 @@ public class PerennialsPageMap extends MasterScript {
 	 * <b>Description:</b> acena bezbronna "Purpurea"<br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> xpath://*[@id='center_column']/ul/li[1]/div/div[1]/div/a[1]/img<br/>
+	 * <b>Target:</b> xpath=//*[@id='center_column']/ul/li[1]/div/div[1]/div/a[1]/img<br/>
 	 */
 	protected Button btnPurpurea = getButton(tomgr, winPerennialsPage, "btnPurpurea");
 
@@ -31,7 +31,7 @@ public class PerennialsPageMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Image<br/>
-	 * <b>Target:</b> cssSelector:img.replace-2x.img-responsive<br/>
+	 * <b>Target:</b> cssSelector=img.replace-2x.img-responsive<br/>
 	 */
 	protected Image ImgFirst = getImage(tomgr, winPerennialsPage, "ImgFirst");
 
@@ -39,7 +39,7 @@ public class PerennialsPageMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> name:Submit<br/>
+	 * <b>Target:</b> name=Submit<br/>
 	 */
 	protected Button btnAddToCart = getButton(tomgr, winPerennialsPage, "btnAddToCart");
 
@@ -47,7 +47,7 @@ public class PerennialsPageMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> xpath://*[@id='layer_cart']/div[1]/div[2]/div[4]/span/span<br/>
+	 * <b>Target:</b> xpath=//*[@id='layer_cart']/div[1]/div[2]/div[4]/span/span<br/>
 	 */
 	protected Button btnContinueShoping = getButton(tomgr, winPerennialsPage, "btnContinueShoping");
 
@@ -55,7 +55,7 @@ public class PerennialsPageMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Element<br/>
-	 * <b>Target:</b> xpath://*[@id='center_column']/h1/span[1]<br/>
+	 * <b>Target:</b> xpath=//*[@id='center_column']/h1/span[1]<br/>
 	 */
 	protected Element objText = getElement(tomgr, winPerennialsPage, "objText");
 
@@ -63,7 +63,7 @@ public class PerennialsPageMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Element<br/>
-	 * <b>Target:</b> cssSelector:.nomargin.hiddable.col-lg-6>label>a>span<br/>
+	 * <b>Target:</b> cssSelector=.nomargin.hiddable.col-lg-6>label>a>span<br/>
 	 */
 	protected Element objUnvav = getElement(tomgr, winPerennialsPage, "objUnvav");
 
@@ -71,7 +71,7 @@ public class PerennialsPageMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Element<br/>
-	 * <b>Target:</b> cssSelector:.pb-center-column.col-xs-12.col-sm-4>h1<br/>
+	 * <b>Target:</b> cssSelector=span[id="layer_cart_product_title"]<br/>
 	 */
 	protected Element objTextLable = getElement(tomgr, winPerennialsPage, "objTextLable");
 
@@ -79,7 +79,7 @@ public class PerennialsPageMap extends MasterScript {
 	 * <b>Description:</b> acena Buchanana <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> Xpath://*[@id='center_column']/ul/li[2]/div/div[1]/div/a[1]/img<br/>
+	 * <b>Target:</b> xpath=//*[@id='center_column']/ul/li[2]/div/div[1]/div/a[1]/img<br/>
 	 */
 	protected Button btnBuchanana = getButton(tomgr, winPerennialsPage, "btnBuchanana");
 
@@ -87,7 +87,7 @@ public class PerennialsPageMap extends MasterScript {
 	 * <b>Description:</b> acena drobnolistna "Bronze<br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> Xpath://*[@id='center_column']/ul/li[3]/div/div[1]/div/a[1]/img<br/>
+	 * <b>Target:</b> xpath=//*[@id='center_column']/ul/li[3]/div/div[1]/div/a[1]/img<br/>
 	 */
 	protected Button btnBronze = getButton(tomgr, winPerennialsPage, "btnBronze");
 
@@ -95,7 +95,7 @@ public class PerennialsPageMap extends MasterScript {
 	 * <b>Description:</b> akant miêkki "Hollard's Gold<br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> Xpath://*[@id='center_column']/ul/li[12]/div/div[1]/div/a[1]/img<br/>
+	 * <b>Target:</b> xpath=//*[@id='center_column']/ul/li[12]/div/div[1]/div/a[1]/img<br/>
 	 */
 	protected Button btnHollard = getButton(tomgr, winPerennialsPage, "btnHollard");
 

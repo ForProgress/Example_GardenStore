@@ -69,15 +69,20 @@ public class PerennialsPage extends PerennialsPageMap {
 		}
 	}
 	
-	public boolean jAddToCart(Button el) throws TafException {
+	public boolean jAddToCart(Button el) throws TafException {		
 		
-		el.click();
+		el.click();			
+	
+		driver.switchTo().frame(0);
 		btnAddToCart.click();
+		driver.switchTo().defaultContent();
+		
 		btnContinueShoping.click();
 		
 		log.info(objTextLable.getText() + " added to cart");
 		
-		driver.navigate().back();
+		
+		//driver.navigate().back();
 		
 		return true;		
 	}

@@ -33,14 +33,14 @@ public class HomePage extends HomePageMap {
 		log.info("Open login page");
 		boolean status = btnSignIN.checkIfExist();
 		if (status == false) {
-			log.info("Open login page", "User is already logged in. Executing sign off action");
+			log.info("User is already logged in. Executing sign off action");
 			jLogout();
 		}
 
 		btnSignIN.click();
 
 		if (txtEmail.waitIfNotExist(20)) {
-			log.info("jOpenLoginForm", "Ok. Sign in form is correct", winHomePage.screenShot());
+			log.info("Ok. Sign in form is correct", winHomePage.screenShot());
 			return true;
 		} else {
 			throw new TafException("Something went wrong. Can't find email text field.", winHomePage.screenShot());
@@ -72,13 +72,14 @@ public class HomePage extends HomePageMap {
 	 * 
 	 */
 	public boolean jOpenGardenStore() throws TafException {
-		log.info("Run browser");
+	//	log.info("Run browser");
 		//runBrowser(Browser.Firefox, "http://localhost:8181/gardenstore");
 		runBrowser(Browser.Firefox, "http://testy.forprogress.com.pl:8000/gardenstore/pl/");
 		MasterScript.browser.manage().window().maximize();
 		
 		if (imgLogo.waitIfNotExist(20)) {
-			log.info("openGardenStore", "Main page is correct", winHomePage.screenShot());
+			
+			log.info("Main page is correct", winHomePage.screenShot());
 			return true;
 		} else {
 			throw new TafException("Something went wrong. Can't find Gardenstore logo", winHomePage.screenShot());
@@ -96,7 +97,7 @@ public class HomePage extends HomePageMap {
 
 		btnSignOut.click();
 		if (btnSignIN.waitIfNotExist(20)) {
-			log.info("Sign out", "User has been successfully logged out", winHomePage.screenShot());
+			log.info("User has been successfully logged out", winHomePage.screenShot());
 			return true;
 		} else {
 			throw new TafException("User has not been successfully logged out. Can't find button 'Sign in'", winHomePage.screenShot());

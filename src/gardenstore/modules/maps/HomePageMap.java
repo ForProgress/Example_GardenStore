@@ -8,7 +8,7 @@ import fp.forevo.proxy.*;
  * Class generated automaticaly. Do not edit from text editor. Change it using Test Object Manager.
  * @author Test Object Manager by ForProgress
  * @see www.forprogress.com.pl
- * @since 2015-12-11 13:09:01
+ * @since 2015-12-30 12:26:06
  */
 public class HomePageMap extends MasterScript {
 
@@ -23,7 +23,7 @@ public class HomePageMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> linkText:Sign in<br/>
+	 * <b>Target:</b> linkText=Sign in<br/>
 	 */
 	protected Button btnSignIN = getButton(tomgr, winHomePage, "btnSignIN");
 
@@ -31,7 +31,7 @@ public class HomePageMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> linkText:Sign out<br/>
+	 * <b>Target:</b> linkText=Sign out<br/>
 	 */
 	protected Button btnSignOut = getButton(tomgr, winHomePage, "btnSignOut");
 
@@ -39,7 +39,7 @@ public class HomePageMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> cssSelector:img.logo.img-responsive<br/>
+	 * <b>Target:</b> css=.logo.img-responsive<br/>
 	 */
 	protected Button imgLogo = getButton(tomgr, winHomePage, "imgLogo");
 
@@ -47,7 +47,7 @@ public class HomePageMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> ComboBox<br/>
-	 * <b>Target:</b> id:languages-block-top<br/>
+	 * <b>Target:</b> id=languages-block-top<br/>
 	 */
 	protected ComboBox cmbChangeLanguage = getComboBox(tomgr, winHomePage, "cmbChangeLanguage");
 
@@ -63,7 +63,7 @@ public class HomePageMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> TextBox<br/>
-	 * <b>Target:</b> id:email<br/>
+	 * <b>Target:</b> id=email<br/>
 	 */
 	protected TextBox txtEmail = getTextBox(tomgr, winHomePage, "txtEmail");
 
@@ -71,7 +71,7 @@ public class HomePageMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Element<br/>
-	 * <b>Target:</b> cssSelector:span<br/>
+	 * <b>Target:</b> css=span<br/>
 	 */
 	protected Element elemLanguage = getElement(tomgr, winHomePage, "elemLanguage");
 
@@ -79,7 +79,7 @@ public class HomePageMap extends MasterScript {
 	 * <b>Description:</b> <br/><br/>
 	 * <b>Driver:</b> WebDriver<br/>
 	 * <b>Class:</b> Button<br/>
-	 * <b>Target:</b> linkText:Perennials<br/>
+	 * <b>Target:</b> linkText=Perennials<br/>
 	 */
 	protected Button btnPerennials = getButton(tomgr, winHomePage, "btnPerennials");
 
